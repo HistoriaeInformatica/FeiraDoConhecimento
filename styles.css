@@ -1,0 +1,307 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #100720;
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: auto;
+   
+}
+
+
+.A{
+    padding:180px ; 
+    margin: 4.0rem;
+    margin-left: 50px;
+	
+}
+
+ 
+.container {
+    width: 180%;
+    margin-top: 5rem;
+    justify-self: center;
+    background-color: #31087b;
+    background-image: linear-gradient(#31087b, #100720);
+    box-shadow: 10px 0.5rem 3rem #fc79eb;
+    border-radius: 1rem;
+    border-top: 2rem;
+    margin-left: 10px;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    justify-content: space-around;
+}
+
+ol {
+    list-style: none;
+    counter-reset: counter-1;
+    margin: 0rem;
+}
+
+li {
+    counter-increment: counter-1;
+    border-left: dashed 5px #FFC23C;
+    padding-top: 2rem;
+    padding-bottom: 15rem;
+    color: white;
+    
+
+}
+
+li:before {
+    content:"0" counter(counter-1)".";
+    font-weight: bold;
+    background-color: #FFC23C;
+    border-radius: 39%;
+    padding: 0.8rem;
+    color: #31087b;
+    margin-left: -1.5rem;
+}
+
+.card-1 {
+    background-image: linear-gradient(#ffc23c, #31087b); 
+    overflow: hidden;
+    border-radius: 15px; 
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: grab;
+    transition-property: transform;
+    transition-duration: 5s;
+    margin: 2.5rem;
+}
+
+.card-1:hover {
+    transform:  translateX(+200px);
+    
+}
+
+.card-1:hover .content {
+    padding: 15px;
+    height: 150px;
+    transition-duration: 4s;
+    max-height: 150px;
+
+}
+
+.card-1 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0px;
+    align-items: center;
+}
+
+.card-1 .img {
+    background-image: url(montanh.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 .img p {
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.card-1 .img h3 {
+    font-size: 30px;
+    font-style: italic;
+
+
+}
+
+
+
+
+
+
+.card-2{
+    background-image: linear-gradient(#ffc23c, #31087b); 
+    overflow: hidden;
+    border-radius: 15px; 
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 5s;
+    margin: 1.5rem;
+}
+
+.card-2:hover {
+    transform:  translateX(+200px);
+    
+}
+
+.card-2:hover .content {
+    padding: 15px;
+    height: 150px;
+    transition-duration: 5s;
+    max-height: 150px;
+
+}
+
+.card-2 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0px;
+    align-items: right;
+}
+
+.card-2 .img {
+    background-image: url(montanh.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-2 .img p {
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.card-2 .img h3 {
+    font-size: 30px;
+    font-style: italic;
+
+
+}
+
+
+
+
+
+
+.card-3 {
+    background-image: linear-gradient(#ffc23c, #31087b); 
+    overflow: hidden;
+    border-radius: 15px; 
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 5s;
+    margin: 1.5rem;
+}
+
+.card-3:hover {
+    transform:  translateX(+200px);
+    
+}
+
+.card-3:hover .content {
+    padding: 15px;
+    height: 150px;
+    transition-duration: 5s;
+    max-height: 150px;
+
+}
+
+.card-3 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0px;
+    align-items: center;
+}
+
+.card-3 .img {
+    background-image: url(montanh.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-3 .img p {
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.card-3 .img h3 {
+    font-size: 30px;
+    font-style: italic;
+
+
+}
+
+
+
+
+
+.card-4 {
+    background-image: linear-gradient(#ffc23c, #31087b); 
+    overflow: hidden;
+    border-radius: 15px; 
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 10s;
+    margin: 1.5rem;
+}
+
+.card-4:hover {
+    transform:  translateX(+200px);
+    
+}
+
+.card-4:hover .content {
+    padding: 15px;
+    height: 150px;
+    transition-duration: 5s;
+    max-height: 150px;
+
+}
+
+.card-4 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0px;
+    align-items: center;
+}
+
+.card-4 .img {
+    background-image: url(montanh.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-4 .img p {
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.card-4 .img h3 {
+    font-size: 30px;
+    font-style: italic;
+
+
+}
+
